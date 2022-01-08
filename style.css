@@ -1,0 +1,96 @@
+.b-blue {
+	color: #284b63;
+}
+
+.bg-b-blue {
+	background-color: #284b63;
+}
+
+.m-blue {
+	color: #3c6e71;
+}
+
+.bg-m-blue {
+	background-color: #3c6e71;
+}
+
+.l-blue {
+	color: #bde0fe;
+}
+.bg-l-blue {
+	background-color: #bde0fe;
+}
+
+.main-box {
+	background-color: white;
+	min-height: 200px;
+	max-width: 700px;
+	margin: auto;
+	margin-top: -150px;
+}
+
+.jumbotron {
+	background-image: url(Images/fusion-medical-animation-EAgGqOiDDMg-unsplash.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	min-height: 500px;
+}
+
+.footer-link {
+	text-decoration: none;
+	font-size: 15px;
+}
+
+.year {
+	font-size: 13px;
+}
+
+.about-div{
+	text-align: justify;
+	color: rgb(50, 62, 75);
+}
+
+#loader {
+	display: none;
+}
+
+@media only screen and (max-width: 768px) {
+	.main-box {
+		margin-top: -220px;
+	}
+
+	.text-header {
+		font-size: 17px;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	.main-box {
+		margin-top: -250px;
+	}
+
+	.text-header {
+		margin-top: -10px;
+	}
+
+	.title-header {
+		font-size: 32px;
+		margin-top: -10px;
+	}
+}
+
+@media only screen and (max-width: 490px) {
+	.text-header {
+		margin-top: -22px;
+		font-size: 14px;
+	}
+
+	.title-header {
+		font-size: 28px;
+		margin-top: -25px;
+	}
+
+	.main-box {
+		margin-top: -320px;
+	}
+}
